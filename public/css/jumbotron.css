@@ -1,0 +1,40 @@
+.jumbotron {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.jumbotron .video-container .video {
+	display: block;
+}
+
+.jumbotron .video-container video {
+	width: 100%;
+}
+
+.hero {
+	position: absolute;
+	width: 100%;
+	display: block;
+	top: 15vh;
+}
+
+.hero > h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.jumbotron-image {
+	width: 100%;
+	display: block;
+	height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+	.jumbotron .video-container .video {
+		display: none;
+	}
+}

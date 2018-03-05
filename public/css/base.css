@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	font-family: "Montserrat", sans-serif;
+}
+
+.flex-container {
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+}
+
+a {
+	color: #ff6e7f;
+	text-decoration: none;
+}
+
+.cta {
+  display: block;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  background: #ff6e7f;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 50px;
+}

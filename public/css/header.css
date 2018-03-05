@@ -1,0 +1,19 @@
+header {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+}
+
+header > p {
+	display: block;
+	padding: 18px 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+header > p em {
+	font-style: normal;
+	font-family: 'Vollkorn', serif;
+	font-size: 16px;
+}

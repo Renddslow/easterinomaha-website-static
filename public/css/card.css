@@ -1,0 +1,40 @@
+.card {
+	position: relative;
+	width: 95%;
+	display: block;
+	margin: 0 auto -20px;
+	top: -50px;
+	background: #fff;
+	min-height: 100vh;
+	box-shadow: 0 10px 20px rgba(0,0,0,.05),
+							0 6px 6px rgba(0,0,0,0.1);
+	box-sizing: border-box;
+	padding-bottom: 48px;
+}
+
+.card-section {
+	display: block;
+	overflow: hidden;
+}
+
+.card-section > h2 {
+	text-align: center;
+	margin: 1em 0;
+}
+
+p.info {
+  display: block;
+  line-height: 2.2;
+  width: 80%;
+  margin: 8px auto 0;
+  font-size: 17px;
+}
+
+.map {
+	margin: 54px 0;
+}
+
+.card-section > p.info strong {
+	padding-top: 16px;
+	display: block;
+}
