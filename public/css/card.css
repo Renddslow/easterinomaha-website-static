@@ -10,6 +10,9 @@
 							0 6px 6px rgba(0,0,0,0.1);
 	box-sizing: border-box;
 	padding-bottom: 48px;
+	max-width: 960px;
+	transition: .3s ease-out;
+	-webkit-transition: .3s ease-out;
 }
 
 .card-section {
@@ -37,4 +40,16 @@ p.info {
 .card-section > p.info strong {
 	padding-top: 16px;
 	display: block;
+}
+
+@media screen and (min-width: 960px) {
+	.card {
+		top: -200px;
+	}
+}
+
+@media screen and (min-width: 1817px) {
+	.card {
+		top: -260px;
+	}
 }
