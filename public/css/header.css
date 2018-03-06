@@ -12,8 +12,8 @@ header > p {
 	font-size: 20px;
 }
 
-header > p em {
+header > p strong {
 	font-style: normal;
-	font-family: 'Vollkorn', serif;
-	font-size: 16px;
+	font-size: 15px;
+	padding-left: 12px;
 }
