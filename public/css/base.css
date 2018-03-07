@@ -41,3 +41,20 @@ a {
 .cta:hover {
 	box-shadow: 0px 15px 48px 0px rgba(0, 0, 0, 0.35);
 }
+
+.times {
+	display: block;
+	text-align: center;
+	margin: 3em auto 0;
+	width: 95%;
+}
+
+.times p {
+	font-size: 32px;
+	color: #444;
+	font-weight: 100;
+}
+
+.center {
+	text-align: center;
+}
