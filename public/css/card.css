@@ -43,6 +43,12 @@ p.info {
 	display: block;
 }
 
+@media screen and (max-width: 768px) {
+	p.info {
+		width: 95%;
+	}
+}
+
 @media screen and (min-width: 960px) {
 	.card {
 		top: -200px;

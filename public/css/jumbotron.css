@@ -47,8 +47,11 @@
 }
 
 @media screen and (max-width: 767px) {
-	.jumbotron .video-container .video {
-		display: none;
+	.hero {
+		top: 2.7vh;
+	}
+	.hero > h1 {
+		font-size: 24px;
 	}
 }
 
