@@ -15,9 +15,10 @@
 
 .hero {
 	position: absolute;
-	width: 100%;
+	width: 95%;
 	display: block;
 	top: 15vh;
+	left: 2.5%;
 }
 
 .hero > h1 {
@@ -30,11 +31,35 @@
 .jumbotron-image {
 	width: 100%;
 	display: block;
-	height: 300px;
+	height: 400px;
+	position: relative;
+	margin-bottom: 54px;
+}
+
+.jumbotron-image > div {
+	width: 100%;
+	background: linear-gradient(90deg, #bc4e9c 0%, #f80759 100%);
+	opacity: .4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
 }
 
 @media screen and (max-width: 767px) {
 	.jumbotron .video-container .video {
 		display: none;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.hero > h1 {
+		font-size: 58px;
+	}
+}
+
+@media screen and (min-width: 1135px) {
+	.hero {
+		top: 30vh;
 	}
 }

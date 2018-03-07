@@ -18,6 +18,7 @@
 .card-section {
 	display: block;
 	overflow: hidden;
+	margin-bottom: 54px;
 }
 
 .card-section > h2 {
@@ -29,7 +30,7 @@ p.info {
   display: block;
   line-height: 2.2;
   width: 80%;
-  margin: 8px auto 0;
+  margin: 12px auto 0;
   font-size: 17px;
 }
 

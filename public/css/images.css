@@ -1,5 +1,11 @@
 .jumbotron-expect {
-	background-image: url('https://i.imgur.com/XZwiCb2.jpg');
+	background-image: url('https://i.imgur.com/uf3eWu1.jpg');
+	background-size: cover;
+	background-position: center left;
+}
+
+.jumbotron-community {
+	background-image: url('https://i.imgur.com/h5T4sO2.jpg');
 	background-size: cover;
 	background-position: center;
 }
