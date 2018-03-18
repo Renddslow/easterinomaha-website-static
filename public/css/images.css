@@ -11,7 +11,13 @@
 }
 
 .jumbotron-kids {
-	background-image: url('https://c2.staticflickr.com/2/1456/26000575014_e3c1a311eb_b.jpg');
+	background-image: url('https://c1.staticflickr.com/5/4745/39391364485_f2cb18bd36_b.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.jumbotron-testimony {
+	background-image: url('https://c1.staticflickr.com/5/4538/27216023619_866a08e926_b.jpg');
 	background-size: cover;
 	background-position: center;
 }

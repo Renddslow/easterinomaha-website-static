@@ -36,14 +36,28 @@
 	margin-bottom: 54px;
 }
 
-.jumbotron-image > div {
+.jumbotron-image > div.gradient {
 	width: 100%;
 	background: linear-gradient(90deg, #bc4e9c 0%, #f80759 100%);
-	opacity: .4;
+	opacity: .9;
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
+}
+
+.testimony {
+	z-index: 150;
+	position: absolute;
+	color: #fff;
+	font-weight: 300;
+	width: 85%;
+	display: block;
+	margin: 1em auto;
+	top: 10px;
+	font-size: 20px;
+	left: 7.5%;
+	line-height: 1.5;
 }
 
 @media screen and (max-width: 767px) {
@@ -55,9 +69,20 @@
 	}
 }
 
+@media screen and (min-width: 630px) {
+	.testimony {
+		top: 100px;
+	}
+}
+
 @media screen and (min-width: 960px) {
 	.hero > h1 {
 		font-size: 58px;
+	}
+
+	.testimony {
+		top: 90px;
+		font-size: 24px;
 	}
 }
 
