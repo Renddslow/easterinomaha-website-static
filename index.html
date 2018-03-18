@@ -130,20 +130,31 @@
 					<form id="save">
 						<div class="form-group">
 							<div class="form-row">
-								<input type="text" placeholder="First Name" id="first-name">
+								<input type="text" placeholder="First Name" id="first-name" required>
 							</div>
 							<div class="form-row">
-								<input type="text" placeholder="Last Name" id="last-name">
+								<input type="text" placeholder="Last Name" id="last-name" required>
 							</div>
 						</div>
 						<div class="form-row">
-							<input type="email" placeholder="Email" id="email">
+							<input type="email" placeholder="Email" id="email" required>
 						</div>
 						<div class="form-row">
 							<label>Number of family members plus yourself</label>
-							<input type="number" placeholder="Number" id="number">
+							<input type="number" placeholder="Number" id="number" required>
 						</div>
-						<button type="submit">Save My Seat</button>
+						<div class="form-row">
+							<p>Which service would you like to come to?</p>
+							<label>
+								<input type="radio" value="9:30" name="services" checked>
+								<span>9:30am</span>
+							</label>
+							<label>
+								<input type="radio" value="11:00" name="services">
+								<span>11:00am</span>
+							</label>
+						</div>
+						<button type="submit" id="submit-btn">Save My Seat</button>
 					</form>
 				</div>
 				<div class="card-section">
