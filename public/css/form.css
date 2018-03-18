@@ -118,6 +118,29 @@ input[type="radio"]:checked::before {
   display: block;
 }
 
+label.radio-control {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.radio-control span {
+  margin-left: 1em;
+}
+
+.form-row.radios {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-row.radios p {
+  width: 100%;
+}
+
+label.radio-control:last-child {
+  margin-left: 2em;
+}
+
 @media screen and (max-width: 768px) {
 	form#save {
 		width: 95%;
